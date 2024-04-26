@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="./images/favicon.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <title>Pong</title>
+  </head>
+  <body>
+    <main class="parent_wrapper">
+      <section class="game_board">
+        <div class="ball"></div>
+        <div class="player computer">
+          <h2 class="score">0</h1>
+          <div class="paddle"></div>
+        </div>
+        <div class="player human">
+          <h2 class="score">0</h1>
+          <div class="paddle"></div>
+        </div>
+        <div class="game_screen">
+          <div class="end_screen">
+            <h2 class="over_text">Game Over</h2>
+            <p>Player Won</p>
+          </div>
+          <h3 class="start_text">Press to Start...</h3>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="./scripts/app.js"></script>
+  </body>
+
+</html>
