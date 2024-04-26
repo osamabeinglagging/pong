@@ -1,5 +1,5 @@
-import Paddle from "./Paddle";
-import Ball from "./Ball";
+import Paddle from "./Paddle.js";
+import Ball from "./Ball.js";
 
 class Gameboard{
   constructor(gameBoardQuery, playerPaddleQuery, computerPaddleQuery, ballQuery){
